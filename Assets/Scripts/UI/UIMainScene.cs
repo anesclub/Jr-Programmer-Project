@@ -8,6 +8,7 @@ public class UIMainScene : MonoBehaviour
 {
     public static UIMainScene Instance { get; private set; }
     
+    //Load on Go back to : the menu scene
     public void StartNew()
     {
         SceneManager.LoadScene(0);
