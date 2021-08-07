@@ -78,6 +78,7 @@ public abstract class Unit : MonoBehaviour,
     /// Override this function to implement what should happen when in range of its target.
     /// Note that this is called every frame the current target is in range, not only the first time we get in range! 
     /// </summary>
+    
     protected abstract void BuildingInRange();
 
     //Implementing the IUIInfoContent interface so the UI know it should display the UI when this is clicked on.
